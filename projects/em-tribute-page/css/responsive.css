@@ -1,0 +1,31 @@
+@media screen and (min-width: 540px) {
+
+	#intro #quote #signature {
+		margin-top: 1%;
+	}
+
+	#tesla-logo {
+		width: 60%;
+		padding-bottom: 20px;
+	}
+
+	#openai-logo {
+		width: 40%;
+		margin-top: -4%;
+	}
+}
+
+@media screen and (min-width: 850px) {
+
+	/*h1 {
+		font-size: 5em;
+	}
+
+	h2 {
+		font-size: 1.5;*/
+	
+
+	#intro #quote h3 {
+		width: 70%;
+	}	
+}

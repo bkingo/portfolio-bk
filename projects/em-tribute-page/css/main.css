@@ -1,0 +1,222 @@
+/************************
+GENERAL
+************************/
+
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 0%;
+	/*background: orange;*/
+}
+
+img {
+	max-width: 100%;
+	
+}
+
+p, h3 {
+	font-family: 'Cabin', sans-serif;
+	padding: 0 5% 0;
+}
+
+/*.background {
+	max-width: 1080px;
+	background: #F0F0F0  ;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	margin: 0 auto;
+}*/
+
+
+
+/************************
+HEADING
+************************/
+
+header {
+	max-width: 940px;
+	text-align: center;
+	
+	padding: 4% 0 1%;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 4.5em;
+	margin: 0;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+h2 {
+	font-size: 1em;
+	font-family: 'Oxygen Mono', monospace;
+	color: #fff;
+	margin: 1% 0 25px;
+}
+
+
+
+/************************
+MAIN PAGE
+************************/
+	
+/* quote text*/
+#quote {
+	padding: 2% 0 4%;
+}
+
+#quote h3 {
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 1.2em;
+	margin: 4% auto 0;
+	width: 80%;
+}
+
+#quote #signature {
+	margin-left: 55%;
+}
+
+#intro {
+	padding-bottom: 5%
+}
+
+#project-list h3 {
+	text-align: center;
+	/*background-color: #EDF1F1;*/
+	background: #eff7f8;
+	margin: 0;
+	padding-top: 4%;
+	padding-bottom: 3%;
+	border-bottom: 2px solid #fff;
+}
+
+/* bold font */
+#project-list span {
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: #000;
+
+}
+
+#project-list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#project-list li {
+	padding: 0% 0% 7%;
+	margin: 0 0;
+	text-align: center;
+}
+
+#spacex-logo {
+	/*background: blue;*/
+	margin: 5px auto -8%;
+	width:;
+}
+
+#tesla-logo {
+	margin: -5% auto -13%;
+	width: 80%;
+
+}
+
+#openai-logo {
+	width: 50%;
+	display: block;
+	margin: 0 auto 0;
+	padding-bottom: 2%
+}
+
+#external-links {
+	padding: 5px 0;
+}
+
+
+
+/************************
+FOOTER
+************************/
+
+footer {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+footer p {
+	margin: 0.85% auto;
+}
+
+
+
+/************************
+COLORS
+************************/
+
+/* site body */
+body {
+	background: #fff;
+}
+
+
+/* title heading */
+header {
+	background: #181c1f;
+	color: #fff;
+}
+
+
+/* project-list links */
+#project-list a, #project-list a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+#project-list li.spacex-info {
+	/*background-color: #EDF1F1;*/
+	background-color: #e5f3f3;
+	/*background-color: #eff7f8;*/
+
+
+}
+
+#project-list li.tesla-info {
+	/*background-color: #F4F6F6;*/
+	/*background-color: #eff7f8;*/
+	background-color: #eff7f8;
+}
+
+#project-list li.openai-info {
+	/*background-color: #F8FBFB;*/
+	/*background-color: #f7fbfb;*/
+	/*background-color: #eff7f8;*/
+	background-color: #e5f3f3;
+	background: #F8FBFB;
+
+	padding-top: 10%;
+}
+
+
+/* external links and footer name*/
+span, span a, span a:visited {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+span a:hover {
+	color: #9AB0C3;
+}
+
+/* footer */
+footer {
+	background-color: #222;
+	color: #fff;
+}

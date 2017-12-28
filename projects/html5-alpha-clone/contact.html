@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Alpha | HTML5 UP</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav id="nav-sidebar">
+			<ul class="nav-panel">
+				<li class="nav-item"><a href="index.html">Home</a></li>
+				<li class="nav-item"><a href="#">Layouts</a></li>
+				<ul>
+					<li class="nav-item"><a href="generic.html">Generic</a></li>
+					<li class="nav-item"><a href="contact.html">Contact</a></li>
+					<li class="nav-item"><a href="elements.html">Elements</a></li>
+					<li>
+						<a href="#" class="nav-item">Submenu</a>
+						<ul>
+							<li class="nav-item"><a href="#">Option One</a></li>
+							<li class="nav-item"><a href="#">Option Second</a></li>
+							<li class="nav-item"><a href="#">Option Three</a></li>
+							<li class="nav-item"><a href="#">Option Four</a></li>
+						</ul>
+					</li>	
+				</ul>
+				<li><a href="#">Sign Up</a></li>	
+			</ul>
+		</nav>
+
+		<input type="checkbox" id="nav-trigger" name="nav" class="nav-expand">
+		<label for="nav-trigger" class="menu-icon"></label>	
+
+		<!-- <input type="radio" id="nav-collapse" name="nav" class="nav-collapse"> -->
+
+		<div id="page-wrapper">
+			<header class="main-heading other-page clearfix">
+				<h1><a href="index.html" class="logo">Alpha</a> by HTML5 UP</h1>
+				<nav>
+					<ul class="main-nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dd-arrow">Layouts</a>
+							<div class="spacer">
+								<ul class="drop-nav">
+									<li class="first"><a href="generic.html">Generic</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="elements.html">Elements</a></li>
+									<li><a href="#">Submenu</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#" class="sign-up">Sign Up</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<header class="top-heading center">
+				<h2 class="btm-border">Contact Us</h2>
+				<p>Tell us what you think about our little operation.</p>
+			</header>
+			<div id="container">
+				<form action="contact.html" method="post" id="contact-form">
+					<input type="text" id="name" name="name" placeholder="Name">
+					<input type="email" id="email" name="email" placeholder="Email">
+					<input type="text" id="subject" name="subject" placeholder="Subject">
+					<textarea id="message" name="message" placeholder="Enter your message" rows="6"></textarea>
+					<button type="submit" class="button default">Send Message</button>
+				</form>
+				
+			</div><!-- end #container -->
+
+			<!-- Footer -->
+				<footer class="center">
+					<ul class="icons">
+						<li><a href="#" class="twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="facebook"><span class="label">Faceook</span></a></li>
+						<li><a href="#" class="instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="dribbble"><span class="label">Dribble</span></a></li>
+						<li><a href="#" class="google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li>
+						<li>Design: <a href="#" class="d-link">HTML5 UP</a></li>
+						<li>Demo Images: <a href="#" class="d-link">Unsplash</a></li>
+					</ul>
+				</footer>
+			<label for="nav-trigger" class="overlay"></label>
+		</div><!-- end #page-wrapper -->
+	</body>
