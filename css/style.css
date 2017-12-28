@@ -1,20 +1,118 @@
+
+.wrapper {
+    margin: 0 1rem 0;
+}
+
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.project__container {
+.card__container {
+    border-radius: 4px;
+    box-shadow: 0 0 3px 1px rgba(0,0,0, .15);
+    box-sizing: border-box;
+    /* padding: 1rem; */
+    overflow: hidden;
+    text-align: center;
+
+
+}
+    .card__photo {
+        height: 165px;
+        background: #ccc;
+    }
+
+        .card__photo--1 {
+            background: url("../img/html5up-alpha-screenshot.png") no-repeat;
+            background-size: cover;
+        }
+
+    .card__description--desktop {
+        display: none;
+    }
+
+    .card__description--mobile {
+        padding: 1rem;
+    }
+
+.card__title {
+
+}
+
+/* .portrait {
+    border-radius: 50%;
+    background: url("../img/profile-pic.jpg") no-repeat;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+} */
+
+.profile-pic {
+
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav {
     box-sizing: border-box;
     padding: 1rem;
+
+}
+
+
+.contact {
+    float: right;
+    margin-right: .5rem;
+}
+
+    .contact__link {
+        color: #d8d8d8;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+
+.header {
     text-align: center;
 }
 
-.project__title {
+.headline {
+    font-size: 2.9rem;
+    margin-bottom: 0;
+}
+    .headline::after {
+        content: '';
+        border-bottom: 9px solid #2196F3;
+        display: block;
+        margin: 6px auto auto;
+        width: 103px;
+    }
 
+    .headline__span {
+        font-weight: 400;
+    }
+
+.tagline {
+    color: #5c5c5c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin-top: 2rem;
 }
 
+.tech-list {
+    list-style: none;
+}
 
+    .tech-list__item {
+        display: inline-block;
+    }
 
 
 /* base ============================================================*/
@@ -24,9 +122,11 @@ html {
 }
 
 body {
-    font: 1em/1.5 sans-serif;
+    font: 1em/1.5 'Open Sans', sans-serif;
     background: #fff;
 }
+
+
 
 a {
     text-decoration: none;
