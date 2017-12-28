@@ -13,33 +13,59 @@
     border-radius: 4px;
     box-shadow: 0 0 3px 1px rgba(0,0,0, .15);
     box-sizing: border-box;
+    margin-bottom: 2rem;
     /* padding: 1rem; */
     overflow: hidden;
     text-align: center;
 
 
 }
+    .card__title {
+        padding: 0 .4rem 0;
+    }
     .card__photo {
         height: 165px;
         background: #ccc;
     }
 
-        .card__photo--1 {
+        .card__photo--html5up {
             background: url("../img/html5up-alpha-screenshot.png") no-repeat;
             background-size: cover;
         }
+        .card__photo--google {
+            background: url("../img/google-homepage-screenshot.png") no-repeat;
+            background-size: cover;
+        }
+        .card__photo--kyokos {
+            background: url("../img/kyokos-restaurant-screenshot.png") no-repeat;
+            background-size: cover;
+        }
+        .card__photo--emtribute {
+            background: url("../img/emtribute-screenshot.png") no-repeat;
+            background-size: cover;
+        }
+
+    .card__title {
+
+    }
 
     .card__description--desktop {
         display: none;
     }
 
     .card__description--mobile {
-        padding: 1rem;
+        padding: 0 1rem 1rem;
     }
 
-.card__title {
+    .card__technologies {
+        list-style: none;
+        padding: 0;
+    }
+        .card__skill {
+            display: inline-block;
+        }
 
-}
+
 
 /* .portrait {
     border-radius: 50%;
@@ -106,13 +132,7 @@
     margin-top: 2rem;
 }
 
-.tech-list {
-    list-style: none;
-}
 
-    .tech-list__item {
-        display: inline-block;
-    }
 
 
 /* base ============================================================*/
