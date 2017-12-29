@@ -3,6 +3,10 @@
     margin: 0 1rem 0;
 }
 
+.intro {
+
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -55,7 +59,8 @@
 
     .card__title {
         color: #212121;
-        padding: 0 .5rem 0;
+        font-size: 1.1rem;
+        padding: 0 1rem 0;
         margin-bottom: 0;
     }
 
@@ -118,8 +123,19 @@
     margin: auto;
 } */
 
-.profile-pic {
+.portrait {
+    border-radius: 50%;
+    width: 210px;
+    margin: 3rem auto 4rem;
+    height: 210px;
+    background-image: url("../img/profile-pic.jpg");
+    background-size: cover;
+    background-position: 0%;
+    overflow: hidden;
+}
 
+.logo {
+    display: none;
 }
 
 .clearfix::after {
@@ -218,7 +234,11 @@ footer {
 
 /* layout ============================================================*/
 
+.row {
+    margin: auto;
+    max-width: 980px;
 
+}
 
 
 
@@ -233,7 +253,50 @@ footer {
 
 /* state ============================================================*/
 
+/* media queries */
+@media screen and (min-width: 337px) {
 
+    /* card links are stacked */
+    .card__link:not(:last-child) {
+        margin: 0 .7rem .9rem 0;
+    }
+}
+
+@media screen and (min-width: 349px) {
+
+    /* card links side-by-side */
+    .card__link:not(:last-child) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .card__photo--kyokos {
+        background-position: 0% 36%;
+        background-size: 100%;
+    }
+}
+
+/* two column layout */
+@media screen and (min-width: 720px) {
+    .row {
+        margin: auto auto 2rem;
+    }
+
+    .intro {
+
+    }
+
+    .card__container {
+        float: left;
+        width: 48%;
+
+    }
+
+    .card__container:nth-of-type(2n + 1) {
+        margin-right: 4%;
+    }
+}
 
 
 
