@@ -99,7 +99,8 @@
 
         }
         .card__link:not(:last-child) {
-            margin-right: .7rem;
+            /* margin-right: .7rem; */
+            margin-bottom: .9rem;
         }
 
 
