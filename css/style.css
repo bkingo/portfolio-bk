@@ -65,6 +65,7 @@
     }
 
     .card__description {
+        line-height: 1.7;
         margin-bottom: 1.5rem;
     }
 
@@ -169,6 +170,7 @@
 
     .contact__link {
         color: #d8d8d8;
+        cursor: pointer;
         font-size: 1.5rem;
         margin-left: 1rem;
     }
