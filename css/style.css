@@ -116,25 +116,21 @@
 
 
 
-/* .portrait {
-    border-radius: 50%;
-    background: url("../img/profile-pic.jpg") no-repeat;
-    width: 250px;
-    height: 250px;
-    margin: auto;
-} */
+
 
 .portrait {
     position: relative;
+    margin: 3rem auto 4rem;
 }
     .portrait__photo {
         border-radius: 50%;
         width: 210px;
-        margin: 3rem auto 4rem;
+
         height: 210px;
         background-image: url("../img/profile-pic.jpg");
         background-size: cover;
-        background-position: 0%;
+        background-position: center;
+        margin: auto;
         overflow: hidden;
     }
     .portrait__overlay {
@@ -159,6 +155,8 @@
 .nav {
     box-sizing: border-box;
     padding: 1rem;
+    max-width: 1644px;
+    margin: auto;
 
 }
 
@@ -292,8 +290,13 @@ footer {
 
 /* two column layout */
 @media screen and (min-width: 720px) {
+
     .row {
         margin: auto auto 2rem;
+    }
+
+    .headline {
+        font-size: 6rem;
     }
 
     .card__container {
@@ -304,6 +307,16 @@ footer {
 
     .card__container:nth-of-type(2n + 1) {
         margin-right: 4%;
+    }
+
+    .headline::after {
+    width: 119px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .wrapper {
+        margin: 0;
     }
 }
 
