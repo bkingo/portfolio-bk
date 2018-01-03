@@ -125,7 +125,6 @@
     .portrait__photo {
         border-radius: 50%;
         width: 210px;
-
         height: 210px;
         background-image: url("../img/profile-pic.jpg");
         background-size: cover;
@@ -246,8 +245,8 @@ footer {
 /* layout ============================================================*/
 
 .row {
-    margin: auto;
-    max-width: 980px;
+    /* margin: auto; */
+    /* max-width: 980px; */
 
 }
 
@@ -291,32 +290,59 @@ footer {
 /* two column layout */
 @media screen and (min-width: 720px) {
 
-    .row {
-        margin: auto auto 2rem;
+    .wrapper {
+        margin-bottom: 2rem;
+        max-width: 980px;
     }
 
     .headline {
         font-size: 6rem;
     }
+        .headline::after {
+            width: 119px;
+        }
 
     .card__container {
         float: left;
         width: 48%;
-
     }
 
+    /* top left and bottom left cards */
     .card__container:nth-of-type(2n + 1) {
         margin-right: 4%;
     }
 
-    .headline::after {
-    width: 119px;
+    /* top two cards */
+    .card__container:nth-of-type(-n + 2) {
+        margin-bottom: 4%;
     }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 860px) {
     .wrapper {
-        margin: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card__container {
+        width: 47%;
+    }
+
+    /* top left and bottom left cards */
+    .card__container:nth-of-type(2n + 1) {
+        margin-right: 6%;
+    }
+
+    /* top two cards */
+    .card__container:nth-of-type(-n + 2) {
+        margin-bottom: 6%;
     }
 }
 
