@@ -5,7 +5,7 @@
 
 .fade-out {
     opacity: 0;
-    
+
 }
 
 
@@ -227,7 +227,7 @@ body {
     font: 1em/1.5 'Open Sans', sans-serif;
     background: #fff;
     opacity: 1;
-    transition: opacity 1.6s linear;
+    transition: opacity 1.5s linear;
 }
 
 
