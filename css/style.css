@@ -3,6 +3,11 @@
     margin: 0 1rem 0;
 }
 
+.fade-out {
+    opacity: 0;
+    
+}
+
 
 .clearfix::after {
     content: '';
@@ -221,7 +226,7 @@ html {
 body {
     font: 1em/1.5 'Open Sans', sans-serif;
     background: #fff;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 1.6s linear;
 }
 
