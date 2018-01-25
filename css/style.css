@@ -34,6 +34,11 @@
         height: 165px;
         background: #ccc;
     }
+        .card__photo--fractl {
+            background: url("../img/frontend-webdev-assessment.png") no-repeat;
+            background-size: cover;
+            box-shadow: inset 0 0 1px 1px rgba(0,0,0, .05);
+        }
 
         .card__photo--html5up {
             background: url("../img/html5up-alpha-screenshot.png") no-repeat;
@@ -85,8 +90,11 @@
 
         .card__technologies {
             list-style: none;
-            margin-bottom: 1.8rem;
+            /* margin-bottom: 1.8rem; */
+            margin-left: auto;
+            margin-right: auto;
             padding: 0;
+            width: 80%;
         }
             .card__skill {
                 color: #525f7f;
@@ -95,9 +103,12 @@
                 display: inline-block;
                 font-size: .9rem;
                 padding: .25rem .5rem;
+
             }
             .card__skill:not(:last-child) {
                 margin-right: .75rem;
+                margin-bottom: .75rem;
+
             }
 
         .card__options {
