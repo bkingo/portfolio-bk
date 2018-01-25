@@ -361,7 +361,7 @@ footer {
     }
 
     /* top two cards */
-    .card__container:nth-of-type(-n + 4) {
+    .card__container:nth-of-type(-n + 2) {
         margin-bottom: 4%;
     }
 }
@@ -388,8 +388,8 @@ footer {
         margin-right: 6%;
     }
 
-    /* top two cards */
-    .card__container:nth-of-type(-n + 2) {
+    /* top four cards */
+    .card__container:nth-of-type(-n + 4) {
         margin-bottom: 6%;
     }
 }
