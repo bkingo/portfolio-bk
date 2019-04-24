@@ -61,6 +61,11 @@
             background-position: 0% 42%;
             background-size: cover;
         }
+        .card__photo--ytsas {
+            background: url("../img/youtube-search-and-save.jpg") no-repeat;
+            background-position: 0% 42%;
+            background-size: cover;
+        }
         .card__photo--emtribute {
             background: url("../img/emtribute-screenshot.png") no-repeat;
             background-size: cover;
